@@ -1,0 +1,1 @@
+sudo ./mkimage.sh --dir . --compression xz debootstrap --variant=minbase --components=main --include=inetutils-ping,iproute2 --force-check-gpg --arch=arm64 --keyring=./debian-archive-keyring.gpg jessie http://httpredir.debian.org/debian
